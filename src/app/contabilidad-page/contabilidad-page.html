@@ -1,0 +1,46 @@
+<!-- CONTENEDOR GENERAL -->
+<div class="max-w-7xl mx-auto px-6">
+<back-to-home></back-to-home>
+  <!-- TÍTULO -->
+  <div class="text-center mt-2 mb-10">
+    <h1 class="text-3xl font-bold tracking-wide text-gray-800">
+      Portal Sistema de Gestión Integral
+    </h1>
+    <p class="text-gray-500 mt-2">
+      Accede rápidamente a tus herramientas de trabajo
+    </p>
+    <div class="w-24 h-1 bg-blue-600 mx-auto mt-4 rounded-full"></div>
+  </div>
+
+  <!-- GRID -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+    @for (link of linksTrabajo; track $index) {
+
+      <a href="{{link.url}}"
+         target="_blank"
+         class="group relative overflow-hidden rounded-2xl shadow-md hover:shadow-2xl transition-all duration-500">
+
+        <!-- Imagen -->
+        <img
+          src="{{link.img}}"
+          alt="{{link.name}}"
+          class="w-full h-72 object-cover transition-transform duration-500 group-hover:scale-110">
+
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent"></div>
+
+        <!-- Texto -->
+        <div class="absolute bottom-6 left-6">
+          <h3 class="text-white text-2xl font-semibold tracking-wide">
+            {{link.name}}
+          </h3>
+        </div>
+
+      </a>
+
+    }
+
+  </div>
+
+</div>
