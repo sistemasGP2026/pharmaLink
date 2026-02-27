@@ -1,143 +1,157 @@
-<div class="bg-gray-50 min-h-screen">
+<div class="min-h-screen 
+            bg-gradient-to-br 
+            from-[#002e42] 
+            via-[#00649b] 
+            to-[#32c6c6]">
 
   <div class="max-w-7xl mx-auto px-6 py-16">
-    <!-- Header -->
-<!-- Header -->
-<div class="mb-16">
 
-  <div class="flex items-center justify-between">
+    <!-- HERO -->
+    <div class="mb-20 relative">
 
-    <!-- Espacio izquierdo vacío para balance -->
-    <div class="w-40 hidden md:block"></div>
+      <!-- Logos derecha -->
+      <div class="absolute right-0 top-0 flex flex-col items-end gap-3">
+        <img class="w-28 md:w-36 drop-shadow-xl"
+             src="assets/img/logo.png"
+             alt="Logo empresa">
 
-    <!-- Texto centrado REAL -->
-    <div class="text-center max-w-3xl mx-auto">
-      <h3 class="text-2xl md:text-4xl font-bold tracking-wide">
-        SELECCIONA EL PROCESO QUE DESEAS CONSULTAR
-      </h3>
-      <p class="text-gray-500 mt-3">
-        Accede rápidamente a los módulos de trabajo de cada proceso para consultar la información que necesitas.
-      </p>
+        <img class="w-28 md:w-36 drop-shadow-xl"
+             src="assets/img/certificado.png"
+             alt="Certificado ISO">
+      </div>
+
+      <!-- Texto centrado -->
+      <div class="text-center max-w-4xl mx-auto">
+
+        <h1 class="text-4xl md:text-6xl font-extrabold tracking-wide leading-tight">
+
+          <!-- BIENVENIDO A -->
+          <span class="block text-[#ccba86] drop-shadow-lg">
+            BIENVENIDO A
+          </span>
+
+          <!-- PHARMALINK ahora totalmente dorado -->
+          <span class="block mt-4 text-[#ccba86] drop-shadow-2xl">
+            PHARMALINK
+          </span>
+
+        </h1>
+
+        <p class="mt-8 text-lg md:text-xl text-white font-medium max-w-2xl mx-auto">
+          Accede rápidamente a los módulos estratégicos, administrativos y operativos 
+          de la organización desde una plataforma centralizada.
+        </p>
+
+        <!-- Línea decorativa institucional -->
+        <div class="w-48 h-1 mx-auto mt-8 rounded-full bg-[#ccba86]"></div>
+
+      </div>
+
     </div>
 
-    <!-- Logos derecha -->
-    <div class="flex flex-col items-end gap-3">
-      <img class="w-28 md:w-36"
-           src="assets/img/logo.png"
-           alt="Logo empresa">
-
-      <img class="w-28 md:w-36"
-           src="assets/img/certificado.png"
-           alt="Certificado ISO">
-    </div>
-
-  </div>
-
-</div>
-
-    <!-- Grid -->
+    <!-- GRID -->
     <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
 
       <!-- Gestión Integral -->
       <a routerLink="/sgi"
-        class="group bg-white p-6 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 hover:-translate-y-1">
+        class="group bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:-translate-y-2">
         <div class="bg-gray-50 rounded-xl p-4 flex justify-center items-center">
           <img src="assets/img/sgi.png"
             class="w-44 h-44 object-contain transition-transform duration-300 group-hover:scale-110"
             alt="Gestión Integral">
         </div>
-        <h5 class="mt-6 text-center text-lg font-semibold text-gray-800">
+        <h5 class="mt-6 text-center text-lg font-semibold text-[#002e42]">
           Gestión Integral
         </h5>
       </a>
 
       <!-- Gestión Financiera -->
       <a routerLink="/contabilidad"
-        class="group bg-white p-6 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 hover:-translate-y-1">
+        class="group bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:-translate-y-2">
         <div class="bg-gray-50 rounded-xl p-4 flex justify-center items-center">
           <img src="assets/img/contabilidad.png"
             class="w-44 h-44 object-contain transition-transform duration-300 group-hover:scale-110"
             alt="Gestión Financiera">
         </div>
-        <h5 class="mt-6 text-center text-lg font-semibold text-gray-800">
+        <h5 class="mt-6 text-center text-lg font-semibold text-[#002e42]">
           Gestión Financiera
         </h5>
       </a>
 
       <!-- Operación Logística -->
       <a routerLink="/farmacia"
-        class="group bg-white p-6 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 hover:-translate-y-1">
+        class="group bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:-translate-y-2">
         <div class="bg-gray-50 rounded-xl p-4 flex justify-center items-center">
           <img src="assets/img/farmacia.png"
             class="w-44 h-44 object-contain transition-transform duration-300 group-hover:scale-110"
             alt="Operación Logística">
         </div>
-        <h5 class="mt-6 text-center text-lg font-semibold text-gray-800">
+        <h5 class="mt-6 text-center text-lg font-semibold text-[#002e42]">
           Operación Logística del Servicio Farmacéutico
         </h5>
       </a>
 
       <!-- Gestión Comercial -->
       <a routerLink="/ventas-y-compras"
-        class="group bg-white p-6 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 hover:-translate-y-1">
+        class="group bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:-translate-y-2">
         <div class="bg-gray-50 rounded-xl p-4 flex justify-center items-center">
           <img src="assets/img/ventas y compras.png"
             class="w-44 h-44 object-contain transition-transform duration-300 group-hover:scale-110"
             alt="Gestión Comercial">
         </div>
-        <h5 class="mt-6 text-center text-lg font-semibold text-gray-800">
+        <h5 class="mt-6 text-center text-lg font-semibold text-[#002e42]">
           Gestión de Compras y Comercial
         </h5>
       </a>
 
       <!-- Mantenimiento -->
       <a routerLink="/mantenimiento"
-        class="group bg-white p-6 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 hover:-translate-y-1">
+        class="group bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:-translate-y-2">
         <div class="bg-gray-50 rounded-xl p-4 flex justify-center items-center">
           <img src="assets/img/mantenimiento.png"
             class="w-44 h-44 object-contain transition-transform duration-300 group-hover:scale-110"
             alt="Mantenimiento">
         </div>
-        <h5 class="mt-6 text-center text-lg font-semibold text-gray-800">
+        <h5 class="mt-6 text-center text-lg font-semibold text-[#002e42]">
           Mantenimiento e Infraestructura
         </h5>
       </a>
 
       <!-- CEDI -->
       <a routerLink="/cedi"
-        class="group bg-white p-6 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 hover:-translate-y-1">
+        class="group bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:-translate-y-2">
         <div class="bg-gray-50 rounded-xl p-4 flex justify-center items-center">
           <img src="assets/img/cedi.png"
             class="w-44 h-44 object-contain transition-transform duration-300 group-hover:scale-110"
             alt="CEDI">
         </div>
-        <h5 class="mt-6 text-center text-lg font-semibold text-gray-800">
+        <h5 class="mt-6 text-center text-lg font-semibold text-[#002e42]">
           Distribución de Dispositivos Médicos, Medicamentos e Insumos
         </h5>
       </a>
 
       <!-- Gestión Humana -->
       <a routerLink="/gestion-humana"
-        class="group bg-white p-6 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 hover:-translate-y-1">
+        class="group bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:-translate-y-2">
         <div class="bg-gray-50 rounded-xl p-4 flex justify-center items-center">
           <img src="assets/img/gestion humana.png"
             class="w-44 h-44 object-contain transition-transform duration-300 group-hover:scale-110"
             alt="Gestión Humana">
         </div>
-        <h5 class="mt-6 text-center text-lg font-semibold text-gray-800">
+        <h5 class="mt-6 text-center text-lg font-semibold text-[#002e42]">
           Gestión Humana
         </h5>
       </a>
 
       <!-- Central de Mezclas -->
       <a routerLink="/central-de-mezclas"
-        class="group bg-white p-6 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 hover:-translate-y-1">
+        class="group bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:-translate-y-2">
         <div class="bg-gray-50 rounded-xl p-4 flex justify-center items-center">
           <img src="assets/img/cmp.jpg"
             class="w-44 h-44 object-contain transition-transform duration-300 group-hover:scale-110"
             alt="Central de Mezclas">
         </div>
-        <h5 class="mt-6 text-center text-lg font-semibold text-gray-800">
+        <h5 class="mt-6 text-center text-lg font-semibold text-[#002e42]">
           Elaboración y Adecuación de Preparados Estériles y No Estériles
         </h5>
       </a>
