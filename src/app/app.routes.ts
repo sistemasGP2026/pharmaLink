@@ -8,6 +8,7 @@ import { ContabilidadPage } from './contabilidad-page/contabilidad-page';
 import { VentasYComprasPage } from './ventas-y-compras-page/ventas-y-compras-page';
 import { GestionHumana } from './gestion-humana/gestion-humana';
 import { Cmp } from './cmp/cmp';
+import { SgiVideos } from './sgi-videos/sgi-videos';
 
 export const routes: Routes = [
     { path: '', component: HomePage },
@@ -19,5 +20,6 @@ export const routes: Routes = [
     { path:'ventas-y-compras', component: VentasYComprasPage},
     { path: 'gestion-humana', component: GestionHumana},
     { path: 'central-de-mezclas', component: Cmp},
+    { path: 'instructivos', component: SgiVideos},
     {path: '**', redirectTo: '/' }
 ];
