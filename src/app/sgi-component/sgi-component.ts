@@ -12,12 +12,50 @@ import { BackToHome } from '../back-to-home/back-to-home';
 export class SgiComponent {
 
   linksTrabajo: any[] = [
-    { name: 'Pagina web institucional', url: 'https://gestionpharma.com.co/', img: 'assets/links/home.png' },
-    { name: 'Examenes medicos', url: 'https://www.aisltda.com.co/', img: 'assets/links/examenes_medicos.png' },
-    { name: 'Aplicativo de tickets', url: 'https://calidadgestionpharma.tech-q.net/scp/login.php', img: 'assets/links/tickets.png'},
-    {name: 'Intranet', url: 'https://sites.google.com/gestionpharma.com.co/intranet/inicio?authuser=0', img: 'assets/links/intranet.png'},
-    {name: 'Colegio sura', url: 'https://colegiosura.com/', img: 'assets/links/colegio_sura.png'},
-    {name: 'SAC', url: 'https://clientesac.urbagis.com/login', img: 'assets/links/sac.png'},
-    {name: 'SURA', url: 'https://login.sura.com/sso/servicelogin.aspx?continueTo=https%3A%2F%2Fsucursalempresas.suramericana.com&service=clienteseguros', img: 'assets/links/sura.png'}
+    {
+      name: 'Pagina web institucional',
+      url: 'https://gestionpharma.com.co/',
+      img: 'assets/links/home.png'
+    },
+    {
+      name: 'Examenes medicos',
+      url: 'https://www.aisltda.com.co/',
+      img: 'assets/links/examenes_medicos.png'
+    },
+    {
+      name: 'Aplicativo de tickets',
+      url: 'https://calidadgestionpharma.tech-q.net/scp/login.php',
+      img: 'assets/links/tickets.png'
+    },
+    {
+      name: 'Intranet',
+      url: 'https://sites.google.com/gestionpharma.com.co/intranet/inicio?authuser=0',
+      img: 'assets/links/intranet.png'
+    },
+    {
+      name: 'Colegio sura',
+      url: 'https://colegiosura.com/',
+      img: 'assets/links/colegio_sura.png'
+    },
+    {
+      name: 'SAC',
+      url: 'https://clientesac.urbagis.com/login',
+      img: 'assets/links/sac.png'
+    },
+    {
+      name: 'SURA',
+      url: 'https://login.sura.com/sso/servicelogin.aspx?continueTo=https%3A%2F%2Fsucursalempresas.suramericana.com&service=clienteseguros',
+      img: 'assets/links/sura.png'
+    },
+    {
+      name: 'PHARMANET',
+      url: 'http://10.10.1.24/auth/sign-in',
+      img: 'assets/links/pharmanet.png'
+    },
+    {
+      name: 'CLICKOFFICE',
+      url: 'https://clickoffice.nubeprint.com/panel/',
+      img: 'assets/links/clickoffice.png'
+    }
   ];
 }
