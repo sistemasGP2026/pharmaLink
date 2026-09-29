@@ -57,5 +57,7 @@ export class SgiComponent {
       url: 'https://clickoffice.nubeprint.com/panel/',
       img: 'assets/links/clickoffice.png'
     }
+    
+
   ];
 }
