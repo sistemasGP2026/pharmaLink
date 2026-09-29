@@ -17,5 +17,7 @@ linksTrabajo: any[] = [
   // { name: 'Aplicativo de tickets', url: 'https://calidadgestionpharma.tech-q.net/scp/login.php', img: 'assets/links/tickets.png'},
   { name: 'SAFE', url: 'https://safe2.prixmasol.com/Home/Login', img: 'assets/links/safe.png' },
   {name: 'Medicamentos vitales no disponibles', url: 'https://www.invima.gov.co/productos-vigilados/medicamentos-y-productos-biologicos/medicamentos-vitales-no-disponibles', img: 'assets/links/medicamentos_vitales.png' },
+  { name: 'INVIMA CONSULTOR', url: 'http://10.10.1.24:8082/INVIMA_Consultor.html', img: 'assets/links/invima.png' }
+
 ];
 }
