@@ -56,6 +56,17 @@ export class SgiComponent {
       name: 'CLICKOFFICE',
       url: 'https://clickoffice.nubeprint.com/panel/',
       img: 'assets/links/clickoffice.png'
+    },
+
+    {
+      name: 'TAREAS ADMINISTRATIVAS',
+      url: 'http://10.10.1.24:8090/',
+      img: 'assets/links/tareas.png'
+    },
+    {
+      name: 'INVENTARIO TI',
+      url: 'http://10.10.1.24:8100/',
+      img: 'assets/links/inventario.png'
     }
     
 
