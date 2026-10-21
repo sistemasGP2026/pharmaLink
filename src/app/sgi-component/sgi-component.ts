@@ -67,6 +67,16 @@ export class SgiComponent {
       name: 'INVENTARIO TI',
       url: 'http://10.10.1.24:8100/',
       img: 'assets/links/inventario.png'
+    },
+    {
+      name: 'CLARO CLOUD',
+      url: 'https://cp.cloud.claro.com.co/auth/realms/sr2/protocol/openid-connect/auth?response_type=code&redirect_uri=https%3A%2F%2Fcp.cloud.claro.com.co%2Fsp%2Fcallback%2F%3Fclient_name%3Dsr2&state=eUTcSUvl7hvxCRR51koF6gvUsI-5H4NIBNQxUlbF-JI&client_id=oss&scope=openid',
+      img: 'assets/links/claro_cloud.png'
+    },
+    {
+      name: 'CLARO EMPRESAS',
+      url: 'https://miclaroempresas.com.co/login',
+      img: 'assets/links/claro_empresa.png'
     }
     
 
